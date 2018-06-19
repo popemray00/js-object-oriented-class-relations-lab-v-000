@@ -1,4 +1,4 @@
-let store = {driver: []}
+let store = {driver: [], passenger: [], trip: []}
 
 let driverId = 0
 
