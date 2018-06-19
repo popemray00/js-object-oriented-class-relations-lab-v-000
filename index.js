@@ -32,6 +32,6 @@ class Trip {
     store.trips.push(this)
   }
   driver(){
-    return store.drivers.filter(driver => {return driver.tripId === this.id})
+    return store.drivers.filter(driver => {return driverId === this.id})
   }
 }
