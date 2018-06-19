@@ -31,7 +31,7 @@ class Trip {
 
     store.trips.push(this)
   }
-  firstTrip(){
+  firstTrip(driverId){
     this.driverId = driver.id
   }
 }
