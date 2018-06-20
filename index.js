@@ -39,6 +39,12 @@ class Passenger {
     })
   }
 
+  driver() {
+    return store.drivers.map(driver => {
+      return this.driverId
+    })
+  }
+
 }
 
 let tripId = 0
