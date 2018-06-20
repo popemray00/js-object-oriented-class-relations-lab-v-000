@@ -40,7 +40,7 @@ class Passenger {
   }
 
   driver() {
-    return store.drivers.map(driver => {
+    return store.trips.map(trip => {
       return this.driverId
     })
   }
